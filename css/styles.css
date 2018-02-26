@@ -1,0 +1,402 @@
+/*general structure*/
+body {
+  font-family:'Source', sans-serif;
+  text-align:center;
+  color:black;
+  background-color: #f7f7f7;
+}
+
+main {
+  margin-top:2em;
+}
+
+aside {
+  background-color:#ddd;
+  border-radius:5px;
+  padding-bottom:0.5em;
+  color:inherit;
+}
+
+footer {
+  padding:1em 1em 4em;
+  background-color:#ddd;
+  color:inherit;
+}
+
+/*elements*/
+li {
+  list-style-type:none;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration:none;
+  color:white;
+  background-color:inherit;
+}
+
+h1 {
+  font-family:'Source', sans-serif;
+  font-size:x-large;
+}
+
+h3 {
+  padding:0.5em 0;
+  margin:0.3em;
+  font-family:'Source', sans-serif;
+  font-size:small;
+  font-weight:800;
+}
+
+h4 {
+  font-family:'Source', sans-serif;
+  font-size:medium;
+  font-weight:normal;
+}
+
+span {
+  font-weight:bold;
+}
+
+hr {
+  opacity:1;
+  margin-top:4em;
+  margin-bottom:0;
+  width:90%;
+}
+
+li h3 {
+  border-radius:0%;
+  background-color:#888;
+  padding-left:0.5em;
+  padding-right:0.5em;
+  border-radius:50px;
+  color:inherit;
+}
+
+body hr {
+  width:100%;
+}
+
+div p {
+  width:85%;
+  margin:1em auto;
+  color:#808080;
+  background-color: #f7f7f7;
+}
+
+header div nav ul {
+  margin:0 auto;
+}
+
+header div nav ul li {
+  background-color: #fff;
+  width: 95%;
+  margin:0 auto;
+  color:inherit;
+}
+
+/*images*/
+#profile_pic {
+  width: 70%;
+  margin-top:2.5em;
+  margin-bottom:0.5em;
+  border-radius:20px;
+}
+
+.article_pic {
+  width: 95%;
+  margin-bottom:1em;
+  border-radius:20px;
+}
+
+.aside_pic {
+  width: 95%;
+  margin-top:1.5em;
+  border-radius:10px;
+}
+
+/*groups*/
+#home{
+  margin:1em 0;
+}
+#portfolio {
+  background-color:#fdfdfd;
+  padding:3em 0;
+  margin-top:3em;
+  color:inherit;
+}
+
+.article_div {
+  margin-bottom:2em;
+}
+
+#last_article p {
+  margin-bottom:3em;
+}
+
+#last_article {
+  padding-bottom:1em;
+}
+
+#skills {
+  padding-top:2em;
+  margin-bottom:1em;
+}
+
+#aside_last_p {
+  margin-bottom:3em;
+  padding-bottom:1em;
+}
+
+.aside_p {
+  background-color:#eee;
+  padding:1em;
+  border-radius:5px;
+  color:#808080;
+}
+
+#line {
+  opacity:0.2;
+}
+
+#contact {
+  margin-top:7em;
+}
+
+.phon_e_mail {
+  margin-top:1.5em;
+}
+
+#footer_student {
+  float:left;
+  font-size:1em;
+  margin-top:1em;
+  padding-bottom:0;
+}
+
+#footer_link {
+  float:right;
+  font-size:0.5em;
+  font-weight:200;
+  margin:0;
+  width:50%;
+
+}
+
+.footer_link:before {
+  content:"BACK TO TOP";
+}
+
+.invi_disp {
+  display:none;
+}
+
+
+/*media queries*/
+
+@media (min-width: 768px) {
+
+  h1 {
+    padding-top:1.5em;
+    padding-bottom:1em;
+  }
+
+  aside {
+    display:inline-block;
+  }
+
+  li h3 {
+    width:20%;
+    display:inline-block;
+  }
+
+  ul li {
+    display:inline;
+  }
+
+  header div nav {
+    margin-bottom:3em;
+  }
+
+  header div p {
+    padding: 3em 0;
+    float:left;
+    width:40%;
+    margin-left:2.5em;
+    margin-bottom:7em;
+    text-align:left;
+  }
+
+  footer nav {
+    width:70%;
+    margin:0 0 0 auto;
+
+  }
+
+  /*images*/
+
+  #profile_pic {
+    width:40%;
+    float: right;
+    margin-right:2.5em;
+    margin-top:4em;
+  }
+
+  /*groups*/
+
+  #portfolio {
+    clear:both;
+  }
+
+  .a {
+    float: left;
+    width: 50%
+
+  }
+
+  .b {
+    float: right;
+    width:50%;
+  }
+
+
+  .line {
+    clear:both;
+    width:100%;
+    margin:0;
+    margin:0 auto;
+    opacity:0.1;
+  }
+
+  .a2 {
+    float:left;
+    width:50%;
+    background-color:#ddd;
+  }
+
+  .b2 {
+    float:right;
+    width:50%;
+    background-color:#ddd;
+    padding-top: 4em;
+  }
+
+  .b2 h4 {
+    padding-top:3em;
+  }
+
+  #aside_last_p {
+    margin-bottom:1em;
+  }
+
+  #contact {
+    width:65%;
+    margin-left:20%;
+  }
+
+  #footer_student {
+    margin:1em auto 0 0;
+  }
+
+
+  #footer_link {
+    display:none;
+  }
+
+  .invi_disp {
+    display:inline;
+  }
+
+}
+
+@media (min-width:1024px) {
+
+  h1 {
+    float:left;
+    padding:1em 0 0 2em;
+  }
+
+  header div nav {
+    display:inline-block;
+    width:50%;
+    margin:3em 2.5em 0 2em;
+    float:right;
+  }
+
+/*ver la manera de poder poner la seccion main div para un lado y aside al otro*/
+  main {
+    display:inline-block;
+    float:left;
+  }
+
+  div p {
+    width:90%;
+  }
+/*-----------------------------------------*/
+  main aside {
+    display:inline-block;
+    width:100%;
+  }
+
+
+  /*images*/
+
+  .article_pic {
+    width:95%;
+  }
+
+  .aside_pic {
+    width:50%;
+  }
+
+  .aside_p {
+    width:50%;
+  }
+
+
+  /*groups*/
+
+  .article_div {
+    width:30%;
+    float:none;
+    display:inline-block;
+  }
+
+  #map {
+    float:left;
+    margin-left:2em;
+  }
+
+  #last_article {
+    float:right;
+    margin-right:2em;
+  }
+
+
+  .line {
+    display: none;
+  }
+
+  .a2 {
+    float:left;
+  }
+
+  .b2 {
+    float:right;
+  }
+
+  #contact {
+    clear:both;
+    margin-bottom:4em;
+  }
+
+  #footer_student {
+    margin-left:1em;
+  }
+
+
+}
